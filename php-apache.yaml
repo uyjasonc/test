@@ -26,8 +26,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: fargatenamespace1
-  namespace: fargatenamespace1
+  name: fargateprofile
+  namespace: fargateprofile
   labels:
     run: php-apache
 spec:
