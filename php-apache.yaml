@@ -26,10 +26,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: fargateprofile
-  namespace: fargateprofile
+  name: fargatenamespace1
+  namespace: fargatenamespace1
   labels:
-    run: fargateprofile
+    run: php-apache
 spec:
   ports:
   - port: 80
