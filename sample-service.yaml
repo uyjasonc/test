@@ -16,9 +16,6 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-27
-Amazon EKS User Guide
-Sample deployment
  name: my-deployment
  namespace: my-namespace
  labels:
