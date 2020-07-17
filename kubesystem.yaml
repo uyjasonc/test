@@ -26,8 +26,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: nameprivatenamespace
-  namespace: privatenamespace
+  name: name-kube-system
+  namespace: kube-system
   labels:
     run: php-apache
 spec:
