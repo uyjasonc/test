@@ -1,11 +1,10 @@
 {
     "fargateProfileName": "coredns",
     "clusterName": "dev",
-    "podExecutionRoleArn": "arn:aws:iam::111122223333:role/AmazonEKSFargatePodExecutionRole",
+    "podExecutionRoleArn": "arn:aws:iam::304395146600:role/eksctl-my-cluster1-cluster-ServiceRole-19NHCJMKYXCHG",
     "subnets": [
-        "subnet-0b64dd020cdff3864",
-        "subnet-00b03756df55e2b87",
-        "subnet-0418fcb68ed294abf"
+        "subnet-0b11773033a612f26",
+        "subnet-0c9a3c39d79a0aea4"
     ],
     "selectors": [
         {
