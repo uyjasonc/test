@@ -26,8 +26,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: fargatenamespace1
-  namespace: kube-system
+  name: nameprivatenamespace
+  namespace: privatenamespace
   labels:
     run: php-apache
 spec:
