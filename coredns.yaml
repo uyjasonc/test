@@ -1,0 +1,10 @@
+fargateProfileName: coredns
+clusterName: publicCluster
+podExecutionRoleArn: arn:aws:iam::304395146600:role/eksctl-my-cluster1-cluster-ServiceRole-19NHCJMKYXCHG
+subnets:
+- subnet-0b11773033a612f26
+- subnet-0c9a3c39d79a0aea4
+selectors:
+- namespace: kube-system
+  labels:
+    k8s-app: kube-dns
