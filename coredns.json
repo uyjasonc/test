@@ -1,6 +1,6 @@
 {
     "fargateProfileName": "coredns",
-    "clusterName": "my-cluster1",
+    "clusterName": "publicCluster",
     "podExecutionRoleArn": "arn:aws:iam::304395146600:role/eksctl-my-cluster1-cluster-ServiceRole-19NHCJMKYXCHG",
     "subnets": [
         "subnet-0b11773033a612f26",
