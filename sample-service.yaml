@@ -1,8 +1,8 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-service
-  namespace: fargateprofile
+  name: mynamespacefargate
+  namespace: mynamespacefargate
   labels:
     app: my-app
 spec:
@@ -16,8 +16,8 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-deployment
-  namespace: fargateprofile
+  name: mynamespaceefargate
+  namespace: mynamespacefargate
   labels:
     app: my-app
 spec:
